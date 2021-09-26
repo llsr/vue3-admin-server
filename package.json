@@ -4,7 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-      "serve": "nodemon -i ./node_modules/ --exec \"ts-node\" src/app.ts"
+      "serve": "nodemon -i ./node_modules/ --exec \"ts-node\" src/app.ts",
+      "db": "ts-node ./src/db/index.ts"
     },
     "repository": {
       "type": "git",
